@@ -6,6 +6,6 @@
 
 Order orchestration microservice for CubeMart that coordinates cart, payment, shipping, currency, and email workflows during checkout.
 
-Run the following command to restore dependencies to `vendor/` directory:
+Run the following command from the repo root to vendor Go dependencies locally:
 
-    dep ensure --vendor-only
+    go mod vendor
